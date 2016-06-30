@@ -5,7 +5,7 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>{{ title }}</h1>
+<!--     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
     <form action = "/api/color" method = "post">
         <input type = "text" name = "name" placeholder = "Name" /><br />
@@ -13,6 +13,8 @@
         <input type = "text" name = "green" placeholder = "Green" /><br />
         <input type = "text" name = "blue" placeholder = "Blue" /><br />
         <button type = "submit">Submit</button>
-    </form>
+    </form> -->
+    <div id = "app"></div>
+    <script type = "text/javascript" src = "/build/bundle.js"></script>
   </body>
 </html>
